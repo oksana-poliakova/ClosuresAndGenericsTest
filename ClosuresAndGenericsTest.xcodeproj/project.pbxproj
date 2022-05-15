@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		A18CFA652831053D0096C2EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18CFA642831053D0096C2EE /* AppDelegate.swift */; };
 		A18CFA672831053D0096C2EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18CFA662831053D0096C2EE /* SceneDelegate.swift */; };
-		A18CFA692831053D0096C2EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18CFA682831053D0096C2EE /* ViewController.swift */; };
+		A18CFA692831053D0096C2EE /* ClosuresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18CFA682831053D0096C2EE /* ClosuresViewController.swift */; };
 		A18CFA6C2831053D0096C2EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A18CFA6A2831053D0096C2EE /* Main.storyboard */; };
 		A18CFA6E2831053F0096C2EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A18CFA6D2831053F0096C2EE /* Assets.xcassets */; };
 		A18CFA712831053F0096C2EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A18CFA6F2831053F0096C2EE /* LaunchScreen.storyboard */; };
+		A18CFA7928311F530096C2EE /* GenericsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18CFA7828311F530096C2EE /* GenericsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A18CFA612831053C0096C2EE /* ClosuresAndGenericsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClosuresAndGenericsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A18CFA642831053D0096C2EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A18CFA662831053D0096C2EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A18CFA682831053D0096C2EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A18CFA682831053D0096C2EE /* ClosuresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosuresViewController.swift; sourceTree = "<group>"; };
 		A18CFA6B2831053D0096C2EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A18CFA6D2831053F0096C2EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A18CFA702831053F0096C2EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A18CFA722831053F0096C2EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A18CFA7828311F530096C2EE /* GenericsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				A18CFA642831053D0096C2EE /* AppDelegate.swift */,
 				A18CFA662831053D0096C2EE /* SceneDelegate.swift */,
-				A18CFA682831053D0096C2EE /* ViewController.swift */,
+				A18CFA682831053D0096C2EE /* ClosuresViewController.swift */,
+				A18CFA7828311F530096C2EE /* GenericsViewController.swift */,
 				A18CFA6A2831053D0096C2EE /* Main.storyboard */,
 				A18CFA6D2831053F0096C2EE /* Assets.xcassets */,
 				A18CFA6F2831053F0096C2EE /* LaunchScreen.storyboard */,
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A18CFA692831053D0096C2EE /* ViewController.swift in Sources */,
+				A18CFA692831053D0096C2EE /* ClosuresViewController.swift in Sources */,
 				A18CFA652831053D0096C2EE /* AppDelegate.swift in Sources */,
+				A18CFA7928311F530096C2EE /* GenericsViewController.swift in Sources */,
 				A18CFA672831053D0096C2EE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
